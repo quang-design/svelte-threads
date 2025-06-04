@@ -6,4 +6,6 @@
 </script>
 
 <Navbar />
-{@render children()}
+<main class="min-h-screen bg-gray-50 p-4">
+	{@render children()}
+</main>
