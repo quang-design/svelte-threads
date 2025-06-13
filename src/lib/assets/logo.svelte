@@ -1,17 +1,16 @@
 <script lang="ts">
 	interface Props {
-		className?: string;
 		fill?: string;
 		height?: string;
 		width?: string;
 	}
 
-	let { className, fill = 'currentColor', height = '100%', width = '100%' }: Props = $props();
+	let { fill = 'currentColor', height = '100%', width = '100%' }: Props = $props();
 </script>
 
 <svg
 	aria-label="Threads"
-	class={className}
+	class="duration-200 hover:scale-105"
 	{fill}
 	{width}
 	{height}
