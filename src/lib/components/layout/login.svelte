@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="sticky top-16 mt-16 flex h-fit w-xs flex-col items-center gap-2 rounded-3xl border-[0.5px] border-gray-300 p-6"
+	class="bg-gray-150 sticky top-16 mt-16 flex h-fit w-xs flex-col items-center gap-2 rounded-3xl border-[0.5px] border-gray-300 bg-white/50 p-6"
 >
 	<h2 class="text-center text-xl font-bold">Log in or sign up for Threads</h2>
 	<p class="text-center text-sm text-gray-400">

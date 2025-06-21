@@ -10,8 +10,8 @@
 
 <svelte:window bind:innerWidth />
 
-<main class="mx-auto ml-6 flex min-h-screen w-full justify-center gap-3 px-3">
-	<Navbar />
+<Navbar />
+<main class="mx-auto flex min-h-screen justify-center gap-3 sm:px-5">
 	{@render children()}
 	{#if innerWidth > 1080}
 		<Login />

@@ -137,7 +137,10 @@
 			{#each navItems as item}
 				{@const Icon = item.icon}
 				{#if item.name === 'Create'}
-					<Button variant="secondary" class="group h-11 cursor-pointer">
+					<Button
+						variant="secondary"
+						class="group h-11 cursor-pointer bg-gray-200 hover:bg-gray-200 hover:text-black"
+					>
 						<Plus
 							size={24}
 							class="group-hover:text-foreground scale-150 stroke-[2.25] text-gray-400"
